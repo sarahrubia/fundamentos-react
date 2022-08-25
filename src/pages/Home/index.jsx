@@ -32,21 +32,6 @@ export function Home() {
       });
   }, []);
 
-  // Se precisar async no useEffect a estrutura é:
-
-  // useEffect(() => {
-  //   async function fetchData() {
-  //     const response = await fetch("https://api.github.com/users/sarahrubia");
-  //     const data = await response.json();
-  //     setUser({
-  //       name: data.name,
-  //       avatar: data.avatar_url,
-  //     });
-  //   }
-
-  //   fetchData();
-  // }, []);
-
   return (
     <div className="container">
       <header>
